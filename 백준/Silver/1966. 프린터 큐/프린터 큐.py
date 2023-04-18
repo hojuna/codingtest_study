@@ -6,7 +6,7 @@ t = int(input())
 
 def sol():
     for _ in range(t):
-        n, m = map(int, input().split())
+        n, m = map(int, sys.stdin.readline().split())
         queue = deque(list(map(int, sys.stdin.readline().split())))
         cnt=0
         while queue:
