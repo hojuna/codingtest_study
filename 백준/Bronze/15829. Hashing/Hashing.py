@@ -9,5 +9,5 @@ def sol():
         k=(ord(str_[i])-96)*(31**i)
         sumN+=k
 
-    print(sumN)
+    print(sumN%1234567891)
 sol()
